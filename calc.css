@@ -11,7 +11,7 @@ h1 {
 
 .container {
     width: 460px;
-    height: 540px;
+    /* height: 540px; */
     background-color: rgb(20, 20, 20);
     margin: auto;
     padding: 10px;
@@ -29,7 +29,7 @@ P {
 #screen {
     background-color: rgb(112, 183, 112);
     height: 80px;
-    width: 440px;
+    width: 380px;
     margin: 5px;
     font-size: 4rem;
     text-align: right;
@@ -39,7 +39,7 @@ P {
 .button {
       background-color: rgb(78, 77, 77);
       color: white;
-      width: 92px;
+      width: 80px;
       height: 70px;
       font-size: 2.5rem;
       margin: 10px;
@@ -57,4 +57,11 @@ P {
 
 .button:hover {
     border: 5px solid yellow; 
+}    
+
+.form__wrapper{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
